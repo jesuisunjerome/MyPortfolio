@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+.view {
+    width: 100%;
+    height: 100%;
+}
+
+.container-fluid {
+    background-color: red;
+}
+
+body {
+    font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+p {
+    line-height: 1.80;
+}
+
+
+/* Header */
+header#hd-background {
+    background: url('../img/code-coding.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+header .intro-text {
+    padding: 12rem 0;
+}
+
+header .intro-bg {
+    background-color: rgba(0, 0, 0, .4);
+    border: 1px dotted #fc3;
+}
+
+header#hd-background #icon-heading {
+    letter-spacing: 1rem;
+    font-size: 2.5rem;
+}
+
+header#hd-background #icon-heading a {
+    color: white;
+}
+
+header#hd-background #icon-heading a:hover {
+    color: #fec503;
+}
+
+
+/* About */
+#about #skill_1 {
+    border-bottom: .3rem solid red;
+}
+
+#about #skill_2 {
+    border-bottom: .3rem solid blue;
+}
+
+#about #skill_3 {
+    border-bottom: .3rem solid #fec503;
+}
+
+#about #skill_1:hover,
+#about #skill_2:hover,
+#about #skill_3:hover {
+    box-shadow: -1px 2px 9px #ccc;
+}
+
+/* Education */
+#education {
+    background: url('../img/education1.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#education .info-basico {
+    border: 1px solid #777;
+    border-left: .3rem solid #fec503;
+}
+
+#education .info-detallada {
+    letter-spacing: .1rem;
+}
+
+/* Contact */
+#contact .contact-data {
+    padding: 4rem 0;
+}
+
+#contact .contact-data:hover {
+    padding: 4rem 0;
+    box-shadow: -1px 2px 9px black;
+}
+
+#contact .contact-data h1 a:hover {
+    color: #000;
+    font-size: 3rem;
+}
+
+.mi_color {
+    background-color: rgba(215, 44, 44, 0.4);
+    border-top: 1px dotted #ccc;
+}
+
+.mi_color2 {
+    background-color: rgba(0, 0, 255, 0.4);
+    border-top: 1px dotted #ccc;
+}
+
+#contact #email {
+    background: url('../img/email.jpg') no-repeat center center;
+    background-size: cover;
+    background-color: red;
+    background-blend-mode: screen;
+}
+
+#contact #address {
+    background: url('../img/map.jpg') no-repeat center center;
+    background-size: cover;
+    background-color: blue;
+    background-blend-mode: screen;
+}
+
+#contact #social_media {
+    background: url('../img/social-media.jpg') no-repeat center center;
+    background-size: cover;
+    background-color: red;
+    background-blend-mode: screen;
+}
+
+/* Quote */
+#quote {
+    background: url('../img/design-development.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#quote blockquote {
+    background-color: rgba(45, 45, 45, .8);
+    color: #fc3;
+}
+
+#quote blockquote h5 {
+    font-family: 'Helvetica Neue';
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+#quote blockquote .blockquote-footer {
+    background-color: #ccc;
+    font-size: 1.5rem;
+}
