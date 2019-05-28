@@ -31,7 +31,9 @@ h6 {
 
 p {
     line-height: 1.80;
+    font-weight: 500;
 }
+
 
 /* Header */
 header#hd-background {
@@ -82,6 +84,28 @@ header#hd-background #icon-heading a:hover {
     box-shadow: -1px 2px 9px #ccc;
 }
 
+#about #skill_1_desc:hover {
+    box-shadow: -1px 2px 9px #ccc;
+    background-color: rgb(255, 140, 140);
+    color: white;
+    transition-delay: .9;
+}
+
+#about #skill_2_desc:hover {
+    box-shadow: -1px 2px 9px #ccc;
+    background-color: rgb(140, 140, 255);
+    color: white;
+    transition-delay: .9;
+}
+
+#about #skill_3_desc:hover {
+    box-shadow: -1px 2px 9px #ccc;
+    background-color: rgb(254, 215, 87);
+    color: white;
+    transition-delay: .9;
+}
+
+
 /* Education */
 #education {
     background: url('../img/education1.jpg') no-repeat center center;
@@ -97,6 +121,7 @@ header#hd-background #icon-heading a:hover {
 #education .info-detallada {
     letter-spacing: .1rem;
 }
+
 
 /* Quote */
 #quote {
@@ -120,6 +145,7 @@ header#hd-background #icon-heading a:hover {
     background-color: #ccc;
     font-size: 1.5rem;
 }
+
 
 /* Contact */
 #contact .contact-data {
