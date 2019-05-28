@@ -33,7 +33,6 @@ p {
     line-height: 1.80;
 }
 
-
 /* Header */
 header#hd-background {
     background: url('../img/code-coding.jpg') no-repeat top center;
@@ -99,6 +98,29 @@ header#hd-background #icon-heading a:hover {
     letter-spacing: .1rem;
 }
 
+/* Quote */
+#quote {
+    background: url('../img/design-development.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#quote blockquote {
+    background-color: rgba(45, 45, 45, .8);
+    color: #fc3;
+}
+
+#quote blockquote h5 {
+    font-family: 'Helvetica Neue';
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+#quote blockquote .blockquote-footer {
+    background-color: #ccc;
+    font-size: 1.5rem;
+}
+
 /* Contact */
 #contact .contact-data {
     padding: 4rem 0;
@@ -143,27 +165,4 @@ header#hd-background #icon-heading a:hover {
     background-size: cover;
     background-color: red;
     background-blend-mode: screen;
-}
-
-/* Quote */
-#quote {
-    background: url('../img/design-development.jpg') no-repeat center center;
-    background-size: cover;
-}
-
-#quote blockquote {
-    background-color: rgba(45, 45, 45, .8);
-    color: #fc3;
-}
-
-#quote blockquote h5 {
-    font-family: 'Helvetica Neue';
-    font-size: 2rem;
-    font-weight: 900;
-    letter-spacing: 3px;
-}
-
-#quote blockquote .blockquote-footer {
-    background-color: #ccc;
-    font-size: 1.5rem;
 }
