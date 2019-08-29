@@ -38,7 +38,7 @@ p {
 header#hd-background {
     background: url('../img/code-coding.jpg') no-repeat top center;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 header .intro-text {
