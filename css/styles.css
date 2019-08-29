@@ -196,4 +196,8 @@ header#hd-background #icon-heading a:hover {
     header#hd-background {
         background-attachment: scroll;
     }
+
+    #education {
+        background-attachment: scroll;
+    }
 }
