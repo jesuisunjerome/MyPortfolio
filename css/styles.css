@@ -191,3 +191,9 @@ header#hd-background #icon-heading a:hover {
     background-color: red;
     background-blend-mode: screen;
 }
+
+@media (max-width:767px) {
+    header#hd-background {
+        background-attachment: scroll;
+    }
+}
