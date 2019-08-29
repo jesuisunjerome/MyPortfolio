@@ -47,7 +47,7 @@ header .intro-text {
 
 header .intro-bg {
     background-color: rgba(0, 0, 0, .4);
-    border: 1px dotted #fc3;
+    border: 1px solid #fc3;
 }
 
 header#hd-background #icon-heading {
@@ -195,6 +195,10 @@ header#hd-background #icon-heading a:hover {
 @media (max-width:767px) {
     header#hd-background {
         background-attachment: scroll;
+    }
+
+    header .intro-bg {
+        border: none;
     }
 
     #education {
