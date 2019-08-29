@@ -21,14 +21,14 @@
 <body data-spy="scroll" data-target="#navbarScroll" data-offest="0">
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="navbarScroll">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top" id="navbarScroll">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-md-center" id="navbarMenu">
             <ul class="navbar-nav nav-pills">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#about">About Me <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#about">About Me <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#education">Education</a>
@@ -53,12 +53,13 @@
                 <div class="intro-heading text-uppercase">
                     <h1 class="intro-bg d-inline-block p-3" data-aos="fade-down" data-aos-delay=".9">Hello! I'm <span class="text-warning black px-2">EXY</span></h1>
                     <br>
-                    <h3 class="intro-bg d-inline-block p-3" data-aos="fade-up" data-aos-delay=".9">I'm a <span class="text-warning black px-2">Front-End Developer</span></h3>
+                    <h3 class="intro-bg d-inline-block p-3" data-aos="fade-up" data-aos-delay=".9">I'm a <span class="text-warning black px-2">Web Developer</span></h3>
+                    <!--<h3 class="intro-bg d-inline-block p-3" data-aos="fade-up" data-aos-delay=".9">I'm a <span class="text-warning black px-2">Front-End Developer</span></h3>-->
                 </div>
 
                 <div id="icon-heading" data-aos="zoom-in">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://facebook.com/rhode96" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://linkedin.com/in/ralph-pierre-rhode-exy-23386716a" target="_blank"><i class="fab fa-linkedin"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
@@ -66,48 +67,53 @@
         <!-- ./Container -->
     </header>
     <!-- ./Header -->
+
     <!-- Main content -->
 
     <main>
 
         <!-- About -->
-        <div id="about" class="my-5 py-5" data-aos="fade-up">
-            <!-- Container -->
-            <div class="container pt-5">
-                <div class="text-title pb-3">
-                    <h6 class="text-uppercase text-center" data-aos="fade-down" data-aos-delay=".9">About me</h6>
-                    <h2 class="text-uppercase text-center py-4" data-aos="fade-up" data-aos-delay=".9">Who am i?</h2>
-                </div>
-                <div class="text-description text-center mb-3" data-aos="fade-up" data-aos-delay=".5">
-                    <p>My name is <strong>Ralph Pierre Rhode EXY</strong>. I am a Front-end Developer, graduate of Internet Technology. I have two years experience as a front-end developer, creating responsive websites of a high quality. I have also obtained an eye for detail and appreciation for design, knowledge of integrating with and developing server-side.</p>
+        <div id="about" class="py-5" data-aos="fade-up">
+            <!-- Container-fluid -->
+            <div class="container-fluid py-5">
+                <!-- Container -->
+                <div class="container">
+                    <div class="text-title pt-5">
+                        <h6 class="text-uppercase text-center" data-aos="fade-down" data-aos-delay=".9">About me</h6>
+                        <h2 class="text-uppercase text-center py-4" data-aos="fade-up" data-aos-delay=".9">Who am i?</h2>
+                    </div>
+                    <div class="text-description text-center mb-3" data-aos="fade-up" data-aos-delay=".5">
+                        <p>My name is <strong>Ralph Pierre Rhode EXY</strong>. I am a Web Developer, graduate of Internet Technology. I have two years experience as a front-end developer, creating responsive websites of a high quality. I have also obtained an eye for detail and appreciation for design, knowledge of integrating with and developing server-side.</p>
 
-                    <p>I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time. A front-end developer's role is to combine design and business logic to achieve a user-facing product. To do this successfully, a wide skill set is necessary to produce a quality user experience that leads to meeting business goals.</p>
+                        <p>I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time. A web developer's role is to combine design and business logic to achieve a user-facing product. To do this successfully, a wide skill set is necessary to produce a quality user experience that leads to meeting business goals.</p>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-4 mb-5" data-aos="zoom-in" data-aos-delay=".9">
+                            <div class="mx-1" id="skill_1">
+                                <p class="py-5"><img src="img/article.png" alt=""></p>
+                                <h4 data-aos="fade-up-right" data-aos-delay=".5">Web Designer</h4>
+                            </div>
+                            <p class="mx-1 py-2" id="skill_1_desc" data-aos="fade-up" data-aos-delay=".9">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                        </div>
+                        <div class="col-md-4 mb-5" data-aos="zoom-in" data-aos-delay=".9">
+                            <div class="mx-1" id="skill_2">
+                                <p class="py-5"><img src="img/responsive.png" alt=""></p>
+                                <h4 data-aos="fade-up" data-aos-delay=".5">Responsive Design</h4>
+                            </div>
+                            <p class="mx-1 py-2" id="skill_2_desc" data-aos="fade-up" data-aos-delay=".9">I produce high quality responsive websites and exceptional user experience. My layouts will work on any device, big or small.</p>
+                        </div>
+                        <div class="col-md-4 mb-5" data-aos="zoom-in" data-aos-delay=".9">
+                            <div class="mx-1" id="skill_3">
+                                <p class="py-5"><img src="img/data.png" alt=""></p>
+                                <h4 data-aos="fade-up-right" data-aos-delay=".5">Front-end Developer</h4>
+                            </div>
+                            <p class="mx-1 py-2" id="skill_3_desc" data-aos="fade-up" data-aos-delay=".9">I code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="row text-center">
-                    <div class="col-md-4 mb-5" data-aos="zoom-in" data-aos-delay=".9">
-                        <div class="mx-1" id="skill_1">
-                            <p class="py-5"><img src="img/article.png" alt=""></p>
-                            <h4 data-aos="fade-up-right" data-aos-delay=".5">Web Designer</h4>
-                        </div>
-                        <p class="mx-1 py-2" id="skill_1_desc" data-aos="fade-up" data-aos-delay=".9">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
-                    </div>
-                    <div class="col-md-4 mb-5" data-aos="zoom-in" data-aos-delay=".9">
-                        <div class="mx-1" id="skill_2">
-                            <p class="py-5"><img src="img/responsive.png" alt=""></p>
-                            <h4 data-aos="fade-up" data-aos-delay=".5">Responsive Design</h4>
-                        </div>
-                        <p class="mx-1 py-2" id="skill_2_desc" data-aos="fade-up" data-aos-delay=".9">I produce high quality responsive websites and exceptional user experience. My layouts will work on any device, big or small.</p>
-                    </div>
-                    <div class="col-md-4 mb-5" data-aos="zoom-in" data-aos-delay=".9">
-                        <div class="mx-1" id="skill_3">
-                            <p class="py-5"><img src="img/data.png" alt=""></p>
-                            <h4 data-aos="fade-up-right" data-aos-delay=".5">Front-end Developer</h4>
-                        </div>
-                        <p class="mx-1 py-2" id="skill_3_desc" data-aos="fade-up" data-aos-delay=".9">I code things from scratch, and enjoy bringing ideas to life in the browser.</p>
-                    </div>
-                </div>
+                <!-- ./Container -->
             </div>
-            <!-- ./Container -->
+            <!-- ./Container-fluid -->
         </div>
         <!-- ./About -->
 
@@ -132,7 +138,7 @@
                         <div class="col-md-6">
                             <div class="info-detallada text-white">
                                 <h5 data-aos="fade-right" data-aos-delay=".5">Universidad Tecnol&oacute;gica Tehuac&aacute;n</h5>
-                                <p class="lead" data-aos="fade" data-aos-duration="1500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quaerat sint, voluptates quidem ipsum totam, fugiat sit! Alias.</p>
+                                <p class="lead" data-aos="fade" data-aos-duration="1500">This IT Degree benefits me greatly from advancements in technology. </p>
                             </div>
                         </div>
                     </div>
@@ -146,13 +152,12 @@
                         <div class="col-md-6">
                             <div class="info-detallada text-white">
                                 <h5 data-aos="fade-right" data-aos-delay=".5">Universidad Tecnol&oacute;gica Tehuac&aacute;n</h5>
-                                <p class="lead" data-aos="fade" data-aos-duration="1500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quaerat sint, voluptates quidem ipsum totam, fugiat sit! Alias.</p>
+                                <p class="lead" data-aos="fade" data-aos-duration="1500">Internet is a part of our daily work, it involves using personal, professional, etc. Having degree in Networking and Telecommunications helps me achieving some career goals and learn more about this field because it covers a range of information about computers and technology.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- ./Container -->
-
             </div>
             <!-- ./Container-fluid -->
         </div>
@@ -161,64 +166,134 @@
 
         <!-- Portfolio -->
         <div id="portfolio" class="my-5 py-5" data-aos="fade-up">
-            <!-- Container -->
-            <div class="container pt-5">
-                <div class="text-title pb-3">
-                    <h6 class="text-uppercase text-center" data-aos="fade-down" data-aos-delay=".9">Portfolio</h6>
-                    <h2 class="text-uppercase text-center py-4" data-aos="fade-up" data-aos-delay=".9">My work</h2>
-                </div>
-                <div class="text-description text-center mb-3" data-aos="fade-up" data-aos-delay=".5">
-                    <p>The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows.</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 mb-5">
-                        <div class="card">
-                            <a href="https://jesuisunjerome.github.io/Project_IglesiaEmmanuel/" target="_blank">
-                                <img class="card-img-top" src="img/IBE.png" alt="Card image" data-aos="zoom-in" data-aos-delay=".5">
-                            </a>
-                            <div class="card-body">
-                                <h4 class="card-title" data-aos="fade-down-right" data-aos-delay=".5">Iglesia Emmanuel</h4>
-                                <p class="card-text" data-aos="fade-up-right" data-aos-delay=".5">Responsive Design, HTML5, CSS3, Javascript, Bootstrap, Github</p>
+            <!-- Container-fluid -->
+            <div class="container-fluid py-5">
+                <!-- Container -->
+                <div class="container">
+                    <div class="text-title pt-5">
+                        <h6 class="text-uppercase text-center" data-aos="fade-down" data-aos-delay=".9">Portfolio</h6>
+                        <h2 class="text-uppercase text-center py-4" data-aos="fade-up" data-aos-delay=".9">My work</h2>
+                    </div>
+                    <div class="text-description text-center mb-3" data-aos="fade-up" data-aos-delay=".5">
+                        <p>The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 mb-5">
+                            <div class="card">
+                                <a href="https://jesuisunjerome.github.io/ProjectIglesiaEmmanuel/" target="_blank">
+                                    <img class="card-img-top" src="img/Portfolio/IBE.png" alt="Card image" data-aos="zoom-in" data-aos-delay=".5">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title" data-aos="fade-down-right" data-aos-delay=".5">Iglesia Emmanuel</h4>
+                                    <p class="card-text" data-aos="fade-up-right" data-aos-delay=".5">Responsive Design, HTML5, CSS3, Javascript, Bootstrap, Github</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-5">
-                        <div class="card">
-                            <a href="https://jesuisunjerome.github.io/Project_Ecommerce2/" target="_blank">
-                                <img class="card-img-top" src="img/Ecommerce.png" alt="Card image" data-aos="zoom-in" data-aos-delay=".5">
-                            </a>
-                            <div class="card-body">
-                                <h4 class="card-title" data-aos="fade-up-right" data-aos-delay=".5">E-commerce Project</h4>
-                                <p class="card-text" data-aos="fade-up-right" data-aos-delay=".5">Responsive Design, HTML5, CSS3, Javascript, Bootstrap, Github</p>
+                        <div class="col-md-4 mb-5">
+                            <div class="card">
+                                <a href="https://jesuisunjerome.github.io/DAW_Rhode/ProjectThree/" target="_blank">
+                                    <img class="card-img-top" src="img/Portfolio/Ecommerce.png" alt="Card image" data-aos="zoom-in" data-aos-delay=".5">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title" data-aos="fade-up-right" data-aos-delay=".5">E-commerce Project</h4>
+                                    <p class="card-text" data-aos="fade-up-right" data-aos-delay=".5">Responsive Design, HTML5, CSS3, Javascript, Bootstrap, Github</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-5">
-                        <div class="card">
-                            <a href="https://jesuisunjerome.github.io/Project_Ecommerce/">
-                                <img class="card-img-top" src="img/Ecommerce2.png" alt="E-commerce project image" data-aos="zoom-in" data-aos-delay=".5">
-                            </a>
-                            <div class="card-body">
-                                <h4 class="card-title" data-aos="fade-up-right" data-aos-delay=".5">E-commerce Project</h4>
-                                <p class="card-text" data-aos="fade-up-right" data-aos-delay=".5">Responsive Design, HTML5, CSS3, Javascript, Bootstrap, Github</p>
+                        <div class="col-md-4 mb-5">
+                            <div class="card">
+                                <a href="https://jesuisunjerome.github.io/DAW_Rhode/ProjectTwo/" target="_blank">
+                                    <img class="card-img-top" src="img/Portfolio/Ecommerce2.png" alt="E-commerce project image" data-aos="zoom-in" data-aos-delay=".5">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title" data-aos="fade-down-right" data-aos-delay=".5">E-commerce Project</h4>
+                                    <p class="card-text" data-aos="fade-up-right" data-aos-delay=".5">Responsive Design, HTML5, CSS3, Javascript, Bootstrap, Github</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-5">
-                        <div class="card">
-                            <a href="#">
-                                <img class="card-img-top img-responsive" src="img/Arduino.png" alt="Arduino project image" data-aos="zoom-in" data-aos-delay=".5">
-                            </a>
-                            <div class="card-body">
-                                <h4 class="card-title" data-aos="fade-up-right" data-aos-delay=".5">Arduino Project</h4>
-                                <p class="card-text" data-aos="fade-up-right" data-aos-delay=".5">Mobile App, HTML5, CSS3, Bootstrap, Arduino, Internet Of Things</p>
+                        <div class="col-md-4 mb-5">
+                            <div class="card">
+                                <a href="www.gsi.gsistudios.com.mx" target="_blank">
+                                    <img class=" card-img-top" src="img/Portfolio/GSI.png" alt="GSI project image" data-aos="zoom-in" data-aos-delay=".5">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title" data-aos="fade-up-right" data-aos-delay=".5">Grupo Seguridad Integral</h4>
+                                    <p class="card-text" data-aos="fade-up-right" data-aos-delay=".5">Responsive Design, HTML5, CSS3, Javascript, Bootstrap, Github</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="col-md-4 mb-5">
+                            <div class="card">
+                                <a href="https://jesuisunjerome.github.io/Nousejen/" target="_blank">
+                                    <img class="card-img-top" src="img/Portfolio/Nousejen.png" alt="NOUSEJEN project image" data-aos="zoom-in" data-aos-delay=".5">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title" data-aos="fade-down-right" data-aos-delay=".5">NOUSEJEN Project</h4>
+                                    <p class="card-text" data-aos="fade-up-right" data-aos-delay=".5">Responsive Design, HTML5, CSS3, Javascript, Bootstrap, Github</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-5">
+                            <div class="card">
+                                <a href="https://www.tohuanti.com.mx/olimpiada_ge/" target="_blank">
+                                    <img class="card-img-top" src="img/Portfolio/Olimpiada.png" alt="Olimpiada GE project image" data-aos="zoom-in" data-aos-delay=".5">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title" data-aos="fade-up-right" data-aos-delay=".5">Olimpiada de GE</h4>
+                                    <p class="card-text" data-aos="fade-up-right" data-aos-delay=".5">Responsive Design, HTML5, ASP .Net, CSS3, Javascript, Bootstrap, SQL</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-5">
+                            <div class="card">
+                                <a href="https://www.tohuanti.com.mx/climalaboral/" target="_blank">
+                                    <img class="card-img-top" src="img/Portfolio/RetencionTalentos.png" alt="Clima Laboral project image" data-aos="zoom-in" data-aos-delay=".5">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title" data-aos="fade-down-right" data-aos-delay=".5">Retención de Talentos</h4>
+                                    <p class="card-text" data-aos="fade-up-right" data-aos-delay=".5">Responsive Design, HTML5, ASP .Net, CSS3, Javascript, Bootstrap, SQL</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-5">
+                            <div class="card">
+                                <a href="#">
+                                    <img class="card-img-top" src="img/Portfolio/Predios.png" alt="Predios project image" data-aos="zoom-in" data-aos-delay=".5">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title" data-aos="fade-up-right" data-aos-delay=".5">Predios GSI</h4>
+                                    <p class="card-text" data-aos="fade-up-right" data-aos-delay=".5">Responsive Design, HTML5, ASP .Net, CSS3, Javascript, Bootstrap, SQL</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-5">
+                            <div class="card">
+                                <a href="#">
+                                    <img class="card-img-top" src="img/Portfolio/PLD.png" alt="Prevención lavado dinero project image" data-aos="zoom-in" data-aos-delay=".5">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title" data-aos="fade-up-right" data-aos-delay=".5">Prevención de Lavado de Dinero</h4>
+                                    <p class="card-text" data-aos="fade-up-right" data-aos-delay=".5">Responsive Design, HTML5, ASP .Net, CSS3, Javascript, Bootstrap, SQL</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-5">
+                            <div class="card">
+                                <a href="#">
+                                    <img class="card-img-top img-responsive" src="img/Portfolio/Arduino.png" alt="Arduino project image" data-aos="zoom-in" data-aos-delay=".5">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title" data-aos="fade-down-right" data-aos-delay=".5">Arduino Project</h4>
+                                    <p class="card-text" data-aos="fade-up-right" data-aos-delay=".5">Mobile App, HTML5, CSS3, Bootstrap, Arduino, Internet Of Things</p>
+                                </div>
+                            </div>
+                        </div>
 
+                    </div>
                 </div>
+                <!-- ./Container -->
             </div>
-            <!-- ./Container -->
+            <!-- ./Container-fluid -->
         </div>
         <!-- ./Portfolio -->
 
@@ -241,42 +316,46 @@
 
         <!-- Contact -->
         <div id="contact" class="my-5 py-5" data-aos="fade-up">
-            <!-- Container -->
-            <div class="container pt-5">
-                <div class="text-title pb-3">
-                    <h6 class="text-uppercase text-center" data-aos="fade-down" data-aos-delay=".9">Contact</h6>
-                    <h2 class="text-uppercase text-center py-4" data-aos="fade-up" data-aos-delay=".9">Get in touch</h2>
-                </div>
-                <div class="text-description text-center mb-5" data-aos="fade-up" data-aos-delay=".5">
-                    <p>Interested in collaborating or investing? I’m always open to discussing product design work or partnership opportunities.</p>
-                </div>
+            <!-- Container-fluid -->
+            <div class="container-fluid">
+                <!-- Container -->
+                <div class="container">
+                    <div class="text-title pt-5">
+                        <h6 class="text-uppercase text-center" data-aos="fade-down" data-aos-delay=".9">Contact</h6>
+                        <h2 class="text-uppercase text-center py-4" data-aos="fade-up" data-aos-delay=".9">Get in touch</h2>
+                    </div>
+                    <div class="text-description text-center mb-5" data-aos="fade-up" data-aos-delay=".5">
+                        <p>Interested in collaborating or investing? I’m always open to discussing product design work or partnership opportunities.</p>
+                    </div>
 
-                <div class="row text-center" data-aos="fade-up" data-aos-delay=".5">
-                    <div class="col-md-4 mb-5">
-                        <div class="mx-1 contact-data" id="email">
-                            <h1 class="mi_color text-white py-2" data-aos="fade-up" data-aos-delay=".5"><i class="far fa-envelope"></i></h1>
-                            <p class="white py-2" data-aos="fade-down" data-aos-delay=".5">ralphpierrerhodeexy@yahoo.com</p>
+                    <div class="row text-center" data-aos="fade-up" data-aos-delay=".5">
+                        <div class="col-md-4 mb-5">
+                            <div class="mx-1 contact-data" id="email">
+                                <h1 class="mi_color text-white py-2" data-aos="fade-up" data-aos-delay=".5"><i class="far fa-envelope"></i></h1>
+                                <p class="white py-2" data-aos="fade-down" data-aos-delay=".5">ralphpierrerhodeexy@yahoo.com</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-5">
-                        <div class="mx-1 contact-data" id="address">
-                            <h1 class="mi_color2 text-white py-2" data-aos="fade-up" data-aos-delay=".5"><i class="fas fa-map-marked-alt"></i></h1>
-                            <p class="white py-2" data-aos="fade-down" data-aos-delay=".5">17, Anacahuita, Coyoac&aacute;n </p>
+                        <div class="col-md-4 mb-5">
+                            <div class="mx-1 contact-data" id="address">
+                                <h1 class="mi_color2 text-white py-2" data-aos="fade-up" data-aos-delay=".5"><i class="fas fa-map-marked-alt"></i></h1>
+                                <p class="white py-2" data-aos="fade-down" data-aos-delay=".5">17, Anacahuita, Coyoac&aacute;n </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-5">
-                        <div class="mx-1 contact-data" id="social_media">
-                            <h1 class="mi_color py-2" data-aos="fade-up" data-aos-delay=".5">
-                                <a href="https://linkedin.com/in/ralph-pierre-rhode-exy-23386716a" target="_blank"><i class="fab fa-linkedin text-white"></i></a>
-                                <a href="https://facebook.com/rhode96" target="_blank"><i class="fab fa-facebook text-white"></i></a>
-                                <a href="#"><i class="fab fa-instagram text-white"></i></a>
-                            </h1>
-                            <p class="white py-2" data-aos="fade-down" data-aos-delay=".5">Meet me</p>
+                        <div class="col-md-4 mb-5">
+                            <div class="mx-1 contact-data" id="social_media">
+                                <h1 class="mi_color py-2" data-aos="fade-up" data-aos-delay=".5">
+                                    <a href="https://linkedin.com/in/ralph-pierre-rhode-exy-23386716a" target="_blank"><i class="fab fa-linkedin text-white"></i></a>
+                                    <a href="https://facebook.com/rhode96" target="_blank"><i class="fab fa-facebook text-white"></i></a>
+                                    <a href="#"><i class="fab fa-instagram text-white"></i></a>
+                                </h1>
+                                <p class="white py-2" data-aos="fade-down" data-aos-delay=".5">Meet me</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- ./Container -->
             </div>
-            <!-- ./Container -->
+            <!-- ./Container-fluid -->
         </div>
         <!-- ./Contacto -->
 
@@ -285,18 +364,19 @@
 
     <!-- Footer -->
     <footer class="text-center text-white black py-3" data-aos="fade-right">
-        <p class="py-5" data-aos="zoom-in">Copyright &#45; 2019 <br>Ralph Pierre Rhode EXY</p>
+        <p class="py-5" data-aos="zoom-in">Ralph Pierre Rhode EXY</p>
+        <!--<p class="py-5" data-aos="zoom-in">Copyright &#45; 2019 <br>Ralph Pierre Rhode EXY</p>-->
     </footer>
     <!-- ./Footer -->
 
 
     <script src="js/all.js"></script> <!-- Fontawesome Javascript -->
-    <script src="js/jquery-3.3.1.min.js"></script> <!-- JQuery -->
-    <script src="js/main.js"></script> <!-- Custom JavaScript -->
-    <script src="js/aos.js"></script> <!-- Aos -->
     <script src="js/popper.min.js"></script> <!-- Bootstrap tooltips -->
+    <script src="js/jquery-3.3.1.min.js"></script> <!-- JQuery -->
+    <script src="js/aos.js"></script> <!-- Aos -->
     <script src="js/bootstrap.js"></script> <!-- Bootstrap core JavaScript -->
     <script src="js/mdb.min.js"></script> <!-- MDB core JavaScript -->
+    <script src="js/main.js"></script> <!-- Custom JavaScript -->
 </body>
 
 </html>
