@@ -185,7 +185,7 @@ header#hd-background #icon-heading a:hover {
 #contact #address {
     background: url('../img/map.jpg') no-repeat center center;
     background-size: cover;
-    background-color: blue;
+    background-color: red;
     background-blend-mode: screen;
 }
 
